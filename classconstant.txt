@@ -1,0 +1,7 @@
+class constants
+ 
+ -- used for class values which do not change
+ -- keyword const used followed by the name in all capital letters
+ -- php 7.1 used visibily modifiers in class constants 
+ -- references with classname:: or self::
+

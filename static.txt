@@ -1,0 +1,21 @@
+static modifier
+
+"Static methods can be called directly on the class - no need for an instantiated object"
+
+syntax to refence static properites
+  
+  for properties -- Student::$grades
+  for methods  -- Student::motto()
+
+static methods cannot use pseudo-variable $this instead use self keyword
+   ext --- self::$grades , self::motto()
+
+static methods scope --
+   -  static propeties are not accessible from an instance
+   -  static methods are accesssible from an instance
+
+// inheried static behaviousrs
+ inherited static properites are shared varibales
+  -- changes to the parent value change subclass values
+   -- changes to the subclass value change parent values
+
