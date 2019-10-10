@@ -1,5 +1,7 @@
 static modifier
 
+
+test
 "Static methods can be called directly on the class - no need for an instantiated object"
 
 syntax to refence static properites
